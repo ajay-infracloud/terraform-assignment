@@ -1,0 +1,12 @@
+variable "stack_name" {}
+variable "aws_vpc_id" {}
+variable "aws_ec2_ami_id" {}
+variable "aws_ec2_instance_type" {}
+variable "aws_ec2_instance_count" {}
+variable "availability_zones" {}
+variable "aws_vpc_cidr_block" {}
+variable "public_subnet_id" {}
+variable "aws_ec2_ssh_key_name" {}
+variable "aws_ec2_volume_size" {}
+variable "default_tags" {}
+variable "whitelisted_ips" {}
